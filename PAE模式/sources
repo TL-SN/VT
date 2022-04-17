@@ -1,0 +1,9 @@
+TARGETNAME=test_x86
+TARGETTYPE=DRIVER
+
+SOURCES=test.c \
+        vtsystem.c  \
+        exithandler.c   \
+        ept.c		\
+
+I386_SOURCES=i386\vtasm.asm
